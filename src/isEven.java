@@ -14,19 +14,7 @@ public class isEven {
         System.out.printf("Please Enter Number : ");
         int number = scanner.nextInt();
         while (true) {
-            if (number % 2 == 0) {
-                System.out.printf("is Even Number %d %n", number);
-
-                // again Question
-                System.out.printf("Please Enter New Number?");
-                number = scanner.nextInt();
-            } else {
-                System.out.printf("is Odd Number %d %n",number);
-                break;
-            }
-
 
         }
-
     }
 }
